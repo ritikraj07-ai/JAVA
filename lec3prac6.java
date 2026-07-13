@@ -1,0 +1,14 @@
+import java.util.*;
+public class lec3prac6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        if (age>=18) {
+            System.out.println("applicable");
+        } else {
+            System.out.println("not applicable");
+        }
+        sc.close();
+    }
+}
+    
